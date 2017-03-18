@@ -13,7 +13,7 @@ Python 2/3 通用
 
 ## 示例输出
 ```javascript
-python testNavigate.py -d
+$ python testNavigate.py -d
 微信小程序跳转层数检查工具
 支持 Python 2/3 全版本
 
