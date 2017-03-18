@@ -3,6 +3,7 @@
 
 ## 配置需求
 Python 2/3 通用
+无需任何依赖包
 
 ## 用法
 将 testNavigation.py 拷贝到有 `app.json` 的微信小程序根目录并运行即可。
