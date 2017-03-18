@@ -13,7 +13,7 @@
 
 ## 示例输出
 ```javascript
-→ python testNavigate.py
+$ python testNavigate.py
 微信小程序跳转层数检查工具
 支持 Python 2/3 全版本
 
@@ -32,7 +32,7 @@ Usage:
 请修正以上问题后，再次运行本工具进行检查
 ```
 ```javascript
-→ python testNavigate.py -d
+$ python testNavigate.py -d
 微信小程序跳转层数检查工具
 支持 Python 2/3 全版本
 
