@@ -22,11 +22,9 @@ Usage:
 '->' 表示进入一级页面或 redirectTo，'~>' 表示 navigateTo。
 
  -> /pages/my/my [ ~> /pages/postDetail/postDetail ~> /pages/masterDisplay/masterDisplay -> /pages/postDetail/postDetail]
-
  [!] 跳转栈存在不全是重定向的环。删除其中的某个跳转，或将循环中的所有跳转改为重定向。
 
  -> /pages/circle/circle [ ~> /pages/postDetail/postDetail ~> /pages/masterDisplay/masterDisplay -> /pages/postDetail/postDetail]
-
  [!] 跳转栈存在不全是重定向的环。删除其中的某个跳转，或将循环中的所有跳转改为重定向。
 
 请修正以上问题后，再次运行本工具进行检查

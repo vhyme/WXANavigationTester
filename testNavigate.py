@@ -62,8 +62,9 @@ def print_path_normal(path):
 def print_path_too_long(path):
     global has_problem
     has_problem = True
+    print('')
     print(''.join(list(map(describe_node, path))))
-    print('\n [!] 跳转栈超过5层。尝试减少其中的部分跳转。\n')
+    print('[!] 跳转栈超过5层。尝试减少其中的部分跳转。')
 
 
 def print_path_circle(path, circle):
@@ -71,8 +72,9 @@ def print_path_circle(path, circle):
     has_problem = True
     for item in circle:
         path.pop()
+    print('')
     print(''.join(list(map(describe_node, path))) + ' [' + ''.join(list(map(describe_node, circle))) + ']')
-    print('\n [!] 跳转栈存在不全是重定向的环。删除其中的某个跳转，或将循环中的所有跳转改为重定向。\n')
+    print('[!] 跳转栈存在不全是重定向的环。删除其中的某个跳转，或将循环中的所有跳转改为重定向。')
 
 
 def find_path(length, from_node, from_step, graph, cur_path):
@@ -111,7 +113,6 @@ def test_and_show():
     print('Usage: ')
     print('加参数 -d 可显示所有跳转栈遍历结果；')
     print('\'->\' 表示进入一级页面或 redirectTo，\'~>\' 表示 navigateTo。')
-    print('')
 
     if not os.path.exists('app.json'):
         print('错误: 请在含有 app.json 文件的小程序根目录运行此脚本。')
