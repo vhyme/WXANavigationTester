@@ -12,7 +12,7 @@ Python 2/3 通用
 使用了深度优先遍历，向下遍历时会检查有无环路，回溯时会检测这条路径的长度；有环路或长度超过5时会进行输出。
 
 ## 示例输出
-```python
+```javascript
 python testNavigate.py -d
 微信小程序跳转层数检查工具
 支持 Python 2/3 全版本
